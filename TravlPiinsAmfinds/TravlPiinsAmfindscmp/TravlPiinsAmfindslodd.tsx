@@ -79,7 +79,7 @@ const TravlPiinsAmfindslodd = () => {
   useEffect(() => {
     const welcomeLoaderTimer = setTimeout(() => {
       navigation.navigate('TravlPiinsAmfindsonb' as never);
-    }, 6121);
+    }, 6120);
 
     return () => {
       clearTimeout(welcomeLoaderTimer);
